@@ -1,19 +1,22 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aegis of Alderaan - Network Resilience System Backend",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
+  "keywords": ["network", "resilience", "ai", "anomaly-detection"],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "body-parser": "^1.20.2",
+    "uuid": "^9.0.1",
+    "node-cron": "^3.0.3"
   }
 }

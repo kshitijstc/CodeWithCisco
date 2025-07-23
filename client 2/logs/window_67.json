@@ -1,0 +1,25 @@
+{
+  "window": 67,
+  "timestamp": "2025-07-17T15:19:11.495085",
+  "metrics": [
+    {
+      "timestamp": "2025-07-17 15:19:09.471508",
+      "packets": 311,
+      "bytes": 601896,
+      "dropped": 30
+    },
+    {
+      "timestamp": "2025-07-17 15:19:10.479186",
+      "packets": 318,
+      "bytes": 606470,
+      "dropped": 30
+    },
+    {
+      "timestamp": "2025-07-17 15:19:11.487148",
+      "packets": 300,
+      "bytes": 600000,
+      "dropped": 30
+    }
+  ],
+  "attack_detected": true
+}
